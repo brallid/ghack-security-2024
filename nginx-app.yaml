@@ -23,7 +23,7 @@ spec:
         - gcloud
         - storage
         - cp
-        - "<<INSERT YOUR GCS URI HERE>>"
+        - "<<INSERT YOUR GCS URI HERE>>" #EXAMPLE: "gs://brando-playground/index.html"
         - "work-dir/index.html"
         volumeMounts:
         - name: workdir
